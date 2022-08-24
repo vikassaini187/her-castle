@@ -1,0 +1,13 @@
+*locationlist.js
+.DS_Store
+.DS_Store?
+.Trashes
+node_modules
+composer.lock
+*.swp
+*.swo
+.bash_profile
+/vendor/bin/*
+/vendor/wpreadme2markdown/*
+/vendor/symfony/console/*
+/vendor/symfony/translation/Tests/*

@@ -1,0 +1,10 @@
+article.idx-wrapper .entry-title,
+article.idx-wrapper .entry-author-link,
+article.idx-wrapper .entry-permalink,
+article.idx-wrapper .entry-date,
+article.idx-wrapper .entry-meta,
+.content .pagination,
+nav.post-navigation,
+.breadcrumb {
+    display: none;
+}

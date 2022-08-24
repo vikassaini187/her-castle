@@ -1,0 +1,68 @@
+#toplevel_page_idx-broker .dashicons-before:before {
+    content: '\e021';
+    font-family: 'properticons';
+    font-size: 28pt;
+    padding-top: 0px;
+    margin-top: -4px;
+}
+#wpadminbar .properticons-logo-idx:before {
+    content: '\e021';
+    font-family: 'properticons';
+    font-size: 36pt;
+    top: -14px;
+    vertical-align: top;
+}
+#wp-admin-bar-idx_admin_bar_menu-default svg {
+	padding: 3px 4px;
+	margin-bottom: 4px;
+	background-color: #d54e21;
+	border-radius: 15px;
+	color: #fff;
+	vertical-align:bottom;
+}
+.toplevel_page_idx-broker .update-plugins {
+    font-weight: 100;
+    margin: 0 0 0 6px;
+    vertical-align:bottom;
+}
+
+/*help button glow*/
+@-webkit-keyframes glowing {
+  0% {-webkit-box-shadow: 0 0 3px #004A7F; }
+  50% {-webkit-box-shadow: 0 0 10px #0094FF; }
+  100% {-webkit-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-moz-keyframes glowing {
+  0% {-moz-box-shadow: 0 0 3px #004A7F; }
+  50% {-moz-box-shadow: 0 0 10px #0094FF; }
+  100% {-moz-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-o-keyframes glowing {
+  0% {box-shadow: 0 0 3px #004A7F; }
+  50% {box-shadow: 0 0 10px #0094FF; }
+  100% {box-shadow: 0 0 3px #004A7F; }
+}
+
+@keyframes glowing {
+  0% {box-shadow: 0 0 3px #004A7F; }
+  50% {box-shadow: 0 0 10px #0094FF; }
+  100% {box-shadow: 0 0 3px #004A7F; }
+}
+
+#contextual-help-link.glow {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+/** Properticons on plugin lead capture pages */
+#tab_idx_broker_leads_page .properticons,
+.contact-form-editor-panel .properticons {
+    font-size: 80px;
+    width: 80px;
+    height: 30px;
+    margin-top: -30px;
+}

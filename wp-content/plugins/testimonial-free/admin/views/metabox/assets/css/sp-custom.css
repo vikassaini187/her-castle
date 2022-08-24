@@ -1,0 +1,183 @@
+/*--------------------------------------------------------
+ SP_TP_Framework
+--------------------------------------------------------*/
+.text-center {
+	text-align: center;
+}
+.sp-after-text{
+	padding-left: 5px;
+}
+
+.js #sp_tpro_meta_options.postbox .handlediv,
+.js #sp_tpro_meta_options.postbox .hndle {
+	display: none;
+}
+#sp_tpro_meta_options .sp-tpro-notice{
+	font-size: 15px;
+	margin: 22px 30px;
+	color: #2f2f2f;
+	background: #f9f9f9;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
+	padding: 10px 12px;
+	border-left: 3px solid #f90000;
+}
+#sp_tpro_meta_options .sp-tpro-notice a{
+	text-decoration: none;
+}
+.sp-element input[type="text"] {
+	padding: 8px 12px!important;
+	min-height: 36px;
+}
+.tpro_shortcode .tpro-col-lg-3 .selectable {
+	-webkit-touch-callout: all;
+	-webkit-user-select: all;
+	-khtml-user-select: all;
+	-moz-user-select: all;
+	-ms-user-select: all;
+	user-select: all;
+}
+
+.sp-tpro-framework .sp-content {
+	margin-left: 0;
+	border-top: 1px solid #efefef;
+}
+.sp-tpro-framework .sp-nav {
+	position: inherit;
+	float: none;
+	width: 100%;
+	background: #f1f1f1;
+	-webkit-box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+	-moz-box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+	box-shadow: inset 3px -1px 1px -1px rgba(0,0,0,.04);
+}
+.sp-tpro-framework .sp-nav ul {
+	margin: 0;
+}
+
+.sp-tpro-framework .sp-nav ul li {
+	margin-bottom: -1px;
+	display: inline-block;
+
+}
+
+.sp-tpro-framework .sp-nav-background {
+	position: inherit;
+	width: 100%;
+	background-color: #e3e3e3;
+}
+
+.sp-tpro-framework .sp-nav ul li a {
+	background-color: #52b3d9;
+	border-top: 1px solid #52b3d9;
+	font-size: 13px;
+	padding: 16px 15px;
+	line-height: 1.4;
+	border-bottom: 1px solid #ddd;
+	color: #ffffff;
+	border-right: 1px solid #E2E2E1;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: -1px;
+}
+
+.sp-tpro-framework .sp-nav ul li a.sp-section-active {
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid #52b3d9;
+	background-color: #fff;
+	box-shadow: 0 3px 0 0 #52b3d9 inset;
+}
+
+.sp-tpro-framework .sp-nav ul li .sp-section-active {
+	color: #000;
+}
+
+.sp-tpro-framework .sp-nav ul li .sp-section-active i {
+	color: #52b3d9;
+}
+
+.sp-tpro-framework .sp-nav ul li :after {
+	display: none;
+}
+
+.sp-element {
+	padding: 22px 30px;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+.sp-element:hover {
+	background-color: transparent;
+}
+
+/* Rating */
+.sp-tpro-client-rating{
+	float: left;
+}
+.sp-tpro-client-rating:not(:checked) > input {
+	visibility:hidden;
+	display: none;
+	width:0;
+	height:0;
+	float: right;;
+	top: 100%;
+	clip: rect(0,0,0,0);
+	margin: 0;
+	padding: 0;
+	border:10px #fff solid;
+}
+
+.sp-tpro-client-rating:not(:checked) > label {
+	float: right;
+	display: block;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	font-size: 150%;
+	line-height: 1.2;
+	color: #d4d4d4;
+	width: 1em;
+}
+
+.sp-tpro-client-rating > input:checked ~ label {
+	color: #f3bb00;
+}
+
+.sp-tpro-client-rating:not(:checked) > label:hover,
+.sp-tpro-client-rating:not(:checked) > label:hover ~ label {
+	color: #de7202;
+}
+
+.sp-tpro-client-rating > input:checked + label:hover,
+.sp-tpro-client-rating > input:checked + label:hover ~ label,
+.sp-tpro-client-rating > input:checked ~ label:hover,
+.sp-tpro-client-rating > input:checked ~ label:hover ~ label,
+.sp-tpro-client-rating > label:hover ~ input:checked ~ label {
+	color: #de7202;
+}
+
+
+@media (max-width: 1200px) {
+	.sp-metabox-framework .tpro_shortcode{
+		display: block;
+	}
+	.tpro_shortcode .tpro-col-lg-3 {
+		width: 100%;
+		display: block;
+		border-bottom: 1px solid #e5e5e5;
+		padding-bottom:15px;
+		border-right:none;
+	}
+
+	.tpro_shortcode .tpro-col-lg-3:last-child {
+		border-bottom: none;
+		padding-bottom:0;
+	}
+}
+@media only screen and (max-width: 782px) {
+	.sp-tpro-framework.sp-option-framework .sp-content {
+		margin-left: 0;
+	}
+	.sp-tpro-framework.sp-option-framework .sp-header h2{
+		float: none;
+	}
+}
